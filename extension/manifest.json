@@ -1,0 +1,12 @@
+{
+  "name": "timj-to-toma",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Add toma.hk links to This Is My Jam.",
+  "content_scripts" : [
+    {
+      "matches" : ["http://www.thisismyjam.com/"],
+      "js" : ["script.js"]
+    }
+  ]
+}
